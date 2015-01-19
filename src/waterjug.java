@@ -63,18 +63,16 @@ public class waterjug {
             if(b==0)
             {
                 fillB();
-                System.out.println(+a+","+b);
             }
             else if(a<maxA && b>0)
             {
                 B2A();
-                System.out.println(a+","+b);
             }
             else if(a==maxA)
             {
                 emptyA();
-                System.out.println(a+","+b);
             }
+            System.out.println(a+","+b);
         }
     }
     
