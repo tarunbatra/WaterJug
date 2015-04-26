@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 
@@ -83,7 +82,6 @@ public class waterjug {
     
     void B2A()
     {
-        int diff=maxA-a;
         while(a!=maxA && b!=0)
         {
             a++;
